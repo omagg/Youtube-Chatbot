@@ -112,7 +112,6 @@ GROQ_API_KEY=your_groq_api_key_here
 
 Get an API key from the [Groq Console](https://console.groq.com/).
 
-**Security:** Never commit `.env` or expose your API key in source code, screenshots, or public logs. Add `.env` to `.gitignore`.
 
 ### 5. Run the app
 
@@ -121,8 +120,6 @@ If your Streamlit application is named `main.py`:
 ```bash
 python -m streamlit run main.py
 ```
-
-If your file has a different name, replace `main.py` with that filename. Streamlit will print a local URL to open in your browser.
 
 ## Usage
 
@@ -195,9 +192,9 @@ A simple setup can look like this:
 ```text
 youtube-rag-chatbot/
 ├── main.py
-├── .env                 # Local secrets; do not commit
+├── .env                 
 ├── .gitignore
-├── requirements.txt     # Recommended for reproducible setup
+├── requirements.txt     
 └── README.md
 ```
 
@@ -227,6 +224,5 @@ youtube-rag-chatbot/
 - [Groq documentation](https://console.groq.com/docs/overview)
 - [YouTube Transcript API repository](https://github.com/jdepoix/youtube-transcript-api)
 
-## License
-
-Choose and add a license before distributing or accepting contributions. Until a license is added, do not assume others have permission to reuse the project's code.
+## Author
+Om Aggarwal
